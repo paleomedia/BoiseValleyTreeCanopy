@@ -25,20 +25,20 @@ We exported the census block data to a csv file and aggregated blocks to block g
 ##Census data
 
 The Census data comes from [Census Reporter](http://censusreporter.org), an amazing, data-rich portal to the American Community Survey. We downloaded shapefiles (available here as well) of the following Census tables for Ada and Canyon counties Idaho:
-*B02001 - race
-*B19013 - median household income
-*B03003 - Hispanic origin
-*B25002 - occupied/vacant
-*B11012 - housing tenure
-*B25077 - home value
-*B15003 - educational attainment
++ B02001 - race
++ B19013 - median household income
++ B03003 - Hispanic origin
++ B25002 - occupied/vacant
++ B11012 - housing tenure
++ B25077 - home value
++ B15003 - educational attainment
 
 We then exported CSV files for each table using QGIS, an open source GIS application; Census Reporter offers CSV direct downloads as well, btw. Using the data, we created percentage columns and built a table matching the demographic information to the tree canopy data, by Census Block Group.
 
 ##Data Notes
-*Some small block groups have high margins of error for certain demographics
-*On the race table, we combined "Two races including Some other race" and "Two races excluding Some other race, and three or more races" with "Two or more races"
-*On the educational attainment table, we combined several categories to "% bachelor's degree or higher" and "% no high school"
++ Some small block groups have high margins of error for certain demographics
++ On the race table, we combined "Two races including Some other race" and "Two races excluding Some other race, and three or more races" with "Two or more races"
++ On the educational attainment table, we combined several categories to "% bachelor's degree or higher" and "% no high school"
 
 ##Read the full report at http://thebluereview.org
 Full URL to come... 
