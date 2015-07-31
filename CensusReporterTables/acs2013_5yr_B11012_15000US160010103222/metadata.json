@@ -1,0 +1,76 @@
+{
+    "release": {
+        "id": "acs2013_5yr",
+        "name": "ACS 2013 5-year",
+        "years": "2009-2013"
+    },
+    "tables": {
+        "B11012": {
+            "title": "Household Type by Tenure",
+            "universe": "Households",
+            "denominator_column_id": "B11012001",
+            "columns": {
+                "B11012001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B11012002": {
+                    "name": "Family households:",
+                    "indent": 1
+                },
+                "B11012003": {
+                    "name": "Married-couple family:",
+                    "indent": 2
+                },
+                "B11012004": {
+                    "name": "Owner-occupied housing units",
+                    "indent": 3
+                },
+                "B11012005": {
+                    "name": "Renter-occupied housing units",
+                    "indent": 3
+                },
+                "B11012006": {
+                    "name": "Other family:",
+                    "indent": 2
+                },
+                "B11012007": {
+                    "name": "Male householder, no wife present:",
+                    "indent": 3
+                },
+                "B11012008": {
+                    "name": "Owner-occupied housing units",
+                    "indent": 4
+                },
+                "B11012009": {
+                    "name": "Renter-occupied housing units",
+                    "indent": 4
+                },
+                "B11012010": {
+                    "name": "Female householder, no husband present:",
+                    "indent": 3
+                },
+                "B11012011": {
+                    "name": "Owner-occupied housing units",
+                    "indent": 4
+                },
+                "B11012012": {
+                    "name": "Renter-occupied housing units",
+                    "indent": 4
+                },
+                "B11012013": {
+                    "name": "Nonfamily households:",
+                    "indent": 1
+                },
+                "B11012014": {
+                    "name": "Owner-occupied housing units",
+                    "indent": 2
+                },
+                "B11012015": {
+                    "name": "Renter-occupied housing units",
+                    "indent": 2
+                }
+            }
+        }
+    }
+}

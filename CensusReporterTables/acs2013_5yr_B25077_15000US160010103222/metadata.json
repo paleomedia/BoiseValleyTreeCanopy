@@ -1,0 +1,20 @@
+{
+    "release": {
+        "id": "acs2013_5yr",
+        "name": "ACS 2013 5-year",
+        "years": "2009-2013"
+    },
+    "tables": {
+        "B25077": {
+            "title": "Median Value (Dollars)",
+            "universe": "Owner-occupied Housing Units",
+            "denominator_column_id": null,
+            "columns": {
+                "B25077001": {
+                    "name": "Median value (dollars)",
+                    "indent": 0
+                }
+            }
+        }
+    }
+}

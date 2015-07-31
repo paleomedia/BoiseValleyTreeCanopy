@@ -1,0 +1,28 @@
+{
+    "release": {
+        "id": "acs2013_5yr",
+        "name": "ACS 2013 5-year",
+        "years": "2009-2013"
+    },
+    "tables": {
+        "B03003": {
+            "title": "Hispanic or Latino Origin",
+            "universe": "Total Population",
+            "denominator_column_id": "B03003001",
+            "columns": {
+                "B03003001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B03003002": {
+                    "name": "Not Hispanic or Latino",
+                    "indent": 1
+                },
+                "B03003003": {
+                    "name": "Hispanic or Latino",
+                    "indent": 1
+                }
+            }
+        }
+    }
+}

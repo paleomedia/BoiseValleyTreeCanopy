@@ -1,0 +1,28 @@
+{
+    "release": {
+        "id": "acs2013_5yr",
+        "name": "ACS 2013 5-year",
+        "years": "2009-2013"
+    },
+    "tables": {
+        "B25002": {
+            "title": "Occupancy Status",
+            "universe": "Housing Units",
+            "denominator_column_id": "B25002001",
+            "columns": {
+                "B25002001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B25002002": {
+                    "name": "Occupied",
+                    "indent": 1
+                },
+                "B25002003": {
+                    "name": "Vacant",
+                    "indent": 1
+                }
+            }
+        }
+    }
+}
