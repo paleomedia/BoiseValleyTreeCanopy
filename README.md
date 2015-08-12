@@ -18,9 +18,11 @@ This repository contains the data we used in the analysis.
 
 The tree canopy data comes from the [Treasure Valley Canopy Analysis Project] (http://www.tv.terrasummit.com/TV-Canopy_Data_Tools.html), a large survey completed in 2013. The [Treasure Valley Canopy Network] (http://www.tvcanopy.net/) also offer an online map viewer and many other tools.
 
-For this analyis, we used the Urban Tree Canopy (UTC) coverage, as a percent of land area by Census block. You can find this as a GIS layer Under the "Treasure Valley Area of Interest" section, "AOI Results--State Plane" files.
+For this analysis, we used the Urban Tree Canopy (UTC) coverage, as a percent of land area by Census block. You can find this as a GIS layer Under the "Treasure Valley Area of Interest" section, "AOI Results--State Plane" files.
 
-We exported the census block data to a csv file and aggregated blocks to block groups by stripping the 12-character block ID out of the 15-character block ID (h/t [John Mackenzie at University of Delaware](http://www.udel.edu/johnmack/frec682/census/census_lab2.html)). We then [summarized the blockgroups](http://webapps.stackexchange.com/questions/36103/how-to-group-data-in-a-google-spreadsheet) into a new sheet. We performed these operation in [Google Sheets](https://docs.google.com/spreadsheets/d/1kZj6hDU7M5camDR4Kc-0YqGqqINisiBXeTHTQSv1mcw/edit?usp=sharing), where you can follow along.
+We exported the census block data to a csv file and aggregated blocks to block groups by stripping the 12-character block ID out of the 15-character block ID (h/t [John Mackenzie at University of Delaware](http://www.udel.edu/johnmack/frec682/census/census_lab2.html)). We then [summarized the blockgroups](http://webapps.stackexchange.com/questions/36103/how-to-group-data-in-a-google-spreadsheet) into a new sheet. We performed these operations in [Google Sheets](https://docs.google.com/spreadsheets/d/1kZj6hDU7M5camDR4Kc-0YqGqqINisiBXeTHTQSv1mcw/edit?usp=sharing), where you can follow along.
+
+We also eliminated ~29 outlying Census blocks that fell outside of the Treasure Valley block groups by comparing the aggregated acreage of the blocks to the acreage of the block groups. That is the ACRES_DIFF column in the UTC_Demographics_TV_2013 - MASTER TRIMMED.csv in this directory.
 
 ##Census data
 
