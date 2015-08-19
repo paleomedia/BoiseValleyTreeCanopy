@@ -1,5 +1,5 @@
 # Boise Valley Tree Canopy
-Treasure Valley Idaho tree canopy data combined with 2013 American Community Survey demographic data
+Treasure Valley Idaho tree canopy data combined with 2013 American Community Survey demographic data with R scripts for multivariate analysis. 
 
 ##Background
 A recent article in [PLOS One] (http://journals.plos.org/plosone/s/journal-information), a peer-reviewed, open access journal, discussed urban tree canopies in Baltimore, LA, New York, Philadelphia, Raleigh, Sacramento and Washington, D.C. as tree cover relates to socioecomonic factors and environmental justice.
@@ -10,13 +10,13 @@ The article, [*Trees Grow on Money: Urban Tree Canopy Cover and Environmental Ju
 
 The author's data is [available via figshare](http://figshare.com/articles/Urban_Tree_Canopy_and_Environmental_Justice/1213775).
 
-We worked with Michail Fragkias, one of the article's co-authors and an economist at Boise State University, to reproduce the data for the Boise Valley, also know as the Treasure Valley, a two-county area in Southwest Idaho.
+We worked with Michail Fragkias, one of the article's co-authors and an economist at Boise State University, to reproduce the data for the Boise Valley, also know as the Treasure Valley, part of a two-county area in Southwest Idaho.
 
 This repository contains the data we used in the analysis.
 
 ##Tree Canopy data
 
-The tree canopy data comes from the [Treasure Valley Canopy Analysis Project] (http://www.tv.terrasummit.com/TV-Canopy_Data_Tools.html), a large survey completed in 2013. The [Treasure Valley Canopy Network] (http://www.tvcanopy.net/) also offer an online map viewer and many other tools.
+The tree canopy data comes from the [Treasure Valley Canopy Analysis Project] (http://www.tv.terrasummit.com/TV-Canopy_Data_Tools.html), a large survey completed in 2013. The [Treasure Valley Canopy Network] (http://www.tvcanopy.net/) also offers an online map viewer and many other tools.
 
 For this analysis, we used the Urban Tree Canopy (UTC) coverage, as a percent of land area by Census block. You can find this as a GIS layer Under the "Treasure Valley Area of Interest" section, "AOI Results--State Plane" files.
 
