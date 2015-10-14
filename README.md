@@ -10,7 +10,7 @@ The article, [*Trees Grow on Money: Urban Tree Canopy Cover and Environmental Ju
 
 The author's data is [available via figshare](http://figshare.com/articles/Urban_Tree_Canopy_and_Environmental_Justice/1213775).
 
-We worked with Michail Fragkias, one of the article's co-authors and an economist at Boise State University, to reproduce the data for the Boise Valley, also know as the Treasure Valley, part of a two-county area in Southwest Idaho.
+We worked with Michail Fragkias, one of the article's co-authors and an economist at Boise State University, to reproduce the data for the Boise Valley, also known as the Treasure Valley, part of a two-county area in Southwest Idaho.
 
 This repository contains the data we used in the analysis.
 
@@ -43,5 +43,5 @@ We then exported CSV files for each table using QGIS, an open source GIS applica
 + On the educational attainment table, we combined several categories to "% bachelor's degree or higher" and "% no high school"
 
 ##Read the full report at http://thebluereview.org
-Full URL to come... 
+Full URL to come... preview at [this preso](https://docs.google.com/presentation/d/171dgeqZC2m8EwnWgA2zxJKsa6sciN38MstNsqfb34mw/edit?usp=sharing)
 
